@@ -1,4 +1,4 @@
-import "./Style/index.css"
+import "./styles/index.css"
 
 
 function App() {
