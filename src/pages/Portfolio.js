@@ -1,7 +1,10 @@
 import React from 'react'
+import Navigation from '../components/Navigation'
 
 export default function Portfolio() {
   return (
-    <div>Portfolio</div>
+    <div>
+      <Navigation/>
+      Portfolio</div>
   )
 }
