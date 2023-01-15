@@ -1,7 +1,7 @@
 import React from "react";
 import Experiences from "../components/knowledges/Experience";
 import Hobbies from "../components/knowledges/Hobbies";
-import Languages from "../components/knowledges/Languages";
+import LangFram from "../components/knowledges/LangFram";
 import OtherSkills from "../components/knowledges/OtherSkills";
 import Navigation from "../components/Navigation";
 
@@ -10,7 +10,7 @@ export default function Knowledges() {
     <div className="knowledges">
       <Navigation />
       <div className="knowledgesContent">
-        <Languages />
+        <LangFram />
         <Experiences />
         <OtherSkills />
         <Hobbies />

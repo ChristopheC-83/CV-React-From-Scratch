@@ -56,7 +56,7 @@ export default function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-brands fa-square-instagram"></i>
+              <i className="fa-brands fa-square-instagram"></i>
             </a>
             </li>
             <li>
@@ -65,7 +65,7 @@ export default function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-brands fa-square-github"></i>
+              <i className="fa-brands fa-square-github"></i>
             </a>
           </li>
           <li>
@@ -74,7 +74,7 @@ export default function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-brands fa-codepen"></i>
+              <i className="fa-brands fa-codepen"></i>
             </a>
           </li>
         </ul>
