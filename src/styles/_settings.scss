@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Roboto:wght@400;700;900&display=swap");
+
+$font-1: "Roboto";
+$font-2: "Dosis", sans-serif;
+$font-3: "Josefin", sans-serif;
+
+$color-1: #2a1d52;
+$color-2: #6c77f4;
+$color-3: #63a4e9;
+$color-4: #4fedd2;
+$color-5: #36d0ea;
+$white: #ddd;
+$black: #333;
+
+$borderRadius: 15px;
+$shadow: 0 1px 3px #333;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  // overflow: hidden;
+}
+
+body {
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-family: $font-1;
+  color: $black;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $black;
+}
+a:visited {
+  color: $black;
+}
+
+.home,
+.knowledges,
+.portfolio,
+.contact {
+  display: flex;
+
+  @media screen and (max-width: 850px) {
+    display: block;
+  }
+}
+
+.homeContent,
+.knowledgesContent,
+.portfolioContent,
+.contactContent {
+  margin-left: 0.4rem;
+
+  @media screen and (max-width: 850px) {
+    margin-left: 0;
+  }
+}

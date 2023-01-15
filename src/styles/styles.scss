@@ -1,0 +1,18 @@
+// @import "./libs/reset";
+// @import "./libs/variables";
+// @import "./libs/mixins";
+@import './settings';
+@import './Components/navigation';
+@import './Pages/home';
+@import './Pages/contact';
+@import './Pages/knowledges';
+@import './Pages/notFound';
+@import './Pages/portfolio';
+
+
+.App{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: #f1f1f1;
+}

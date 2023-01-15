@@ -14,25 +14,25 @@ export default function Navigation() {
       <div className="navigation">
         <ul>
           <li>
-            <NavLink to="/" activeClassName="navActive">
+            <NavLink to="/" >
               <i className="fas fa-home"></i>
               <span>Accueil</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to="/competences" activeClassName="navActive">
+            <NavLink to="/competences">
               <i className="fas fa-mountain"></i>
               <span>Compétences</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio" activeClassName="navActive">
+            <NavLink to="/portfolio">
               <i className="fas fa-images"></i>
               <span>Portfolio</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" activeClassName="navActive">
+            <NavLink to="/contact" >
               <i className="fas fa-address-book"></i>
               <span>Contact</span>
             </NavLink>
@@ -49,6 +49,8 @@ export default function Navigation() {
             >
               <i className="fab fa-linkedin"></i>
             </a>
+            </li>
+            <li>
             <a
               href="https://www.instagram.com/christophe_poseur_cuisines/"
               target="_blank"
@@ -56,6 +58,8 @@ export default function Navigation() {
             >
               <i class="fa-brands fa-square-instagram"></i>
             </a>
+            </li>
+            <li>
             <a
               href="https://github.com/ChristopheC-83"
               target="_blank"
@@ -64,9 +68,18 @@ export default function Navigation() {
               <i class="fa-brands fa-square-github"></i>
             </a>
           </li>
+          <li>
+            <a
+              href="https://codepen.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-codepen"></i>
+            </a>
+          </li>
         </ul>
       </div>
-      <div className="signature">Christophe C. 2022</div>
+      <div className="signature"><p>Christophe C. 2022</p></div>
     </div>
   );
 }
