@@ -1,9 +1,9 @@
-import { useState } from "react";
+
 import ProgressBar from "./ProgressBar";
 
 
 export default function LangFram(props) {
-  const [langFram, setLangLangFram] = useState({
+  const langFram = {
     languages: [
       { id: 1, value: "Javascript", xp: 1.2 },
       { id: 2, value: "Html / CSS", xp: 1.8 },
@@ -15,7 +15,7 @@ export default function LangFram(props) {
       { id: 3, value: "Gsap", xp: 1 },
 
     ],
-  });
+  }
 
   // Pour appeler une donnée
   let languages = langFram.languages;

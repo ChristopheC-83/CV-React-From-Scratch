@@ -2,7 +2,7 @@ import React from "react";
 import { v4 as uuidv4 } from "uuid";
 
 export default function ProgressBar(props) {
-  console.log("PB : ", props.languages);
+  // console.log("PB : ", props.languages);
   return (
     <div className={props.className}>
       <h3>{props.title}</h3>

@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import kikiSaut from "./kiki_saut.png"
 
 export default function Navigation() {
   return (
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./media/kiki_saut.png" alt="profil_pict" />
+          <img src={kikiSaut} alt="profil_pict" />
           <h3>Christophe CHIAPPETTA</h3>
         </div>
       </div>
