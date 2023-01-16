@@ -1,10 +1,13 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+import ProjectList from '../components/portfolio/ProjectList'
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className='portfolio'>
       <Navigation/>
-      Portfolio</div>
+
+      <ProjectList/>
+      </div>
   )
 }
