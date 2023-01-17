@@ -83,14 +83,15 @@
       justify-content: space-around;
   
       .project {
-        background: $color-2;
+        background: linear-gradient(45deg, $color-2 0%, $color-1 50%);
+        color : $color-5;
         border-radius: $borderRadius;
         margin: 0.5rem 0 0 0;
         text-align: center;
         width: 32%;
         max-height: 50%;
         padding: .3rem;
-        box-shadow: $shadow;
+        box-shadow: 2px 2px 2px $color-1;
         display: grid;
         grid-template-rows: 15% 15% 55% 15%;
         grid-template-areas: 

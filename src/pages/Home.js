@@ -11,7 +11,10 @@ export default function Home() {
           <h2>Développeur Front-End</h2>
           <div className="pdf">
             <a 
-            href="./media/CV_Christophe.pdf" download
+            href="https://drive.google.com/file/d/1uzDjm5l1mtG3ITJe3zwqV0962rgbHlZP/view?usp=share_link" 
+            download="CV_CHIAPPETTA_Chrisotphe.pdf"
+            target="_blank"
+            rel="noreferrer"
             >Télécharger CV</a>
           </div>
         </div>

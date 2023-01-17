@@ -1,11 +1,12 @@
 .sidebar {
-  background: $color-1;
+  background: linear-gradient(45deg, $color-2 0%, $color-1 50%);
   font-family: $font-1;
   height: 100%;
   min-height: $minHeight;
   width: 264px;
   border-radius: $borderRadius;
   position: relative;
+  box-shadow: 2px 2px 2px $color-1;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 350px 1fr 108px;
@@ -13,6 +14,8 @@
     "1"
     "2"
     "3";
+  
+  
 
   .id {
     grid-area: 1;

@@ -17,9 +17,10 @@
   .experience,
   .otherSkills,
   .hobbies {
-    background-color: $color-2;
+    background: linear-gradient(45deg, $color-2 70%, $color-1 100%);
     border-radius: $borderRadius;
     padding: 0.8rem;
+    box-shadow: 2px 2px 2px $color-1;
 
     h3 {
       font-size: 25px;

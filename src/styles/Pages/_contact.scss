@@ -1,5 +1,6 @@
 .contactContent {
-    background: $color-3;
+  background: linear-gradient(0deg, $color-1 0%, $color-3 60%);
+    box-shadow: 2px 2px 2px $color-1;
     border-radius: $borderRadius;
     width: 100%;
     overflow: hidden;
