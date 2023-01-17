@@ -77,12 +77,13 @@
         }
   
         i {
-          font-size: 1.4rem;
+          font-size: 1.6rem;
           position: absolute;
           transform: translateY(2px);
           color: $color-2;
         }
         span {
+          color: $color-1;
           font-size: 18px;
           position: absolute;
           transform: translateX(52px);
