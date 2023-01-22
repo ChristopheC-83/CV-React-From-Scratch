@@ -71,7 +71,7 @@ export default function Navigation() {
           </li>
           <li>
             <a
-              href="https://codepen.io/"
+              href="https://codepen.io/collection/QWQZQe"
               target="_blank"
               rel="noopener noreferrer"
             >
